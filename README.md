@@ -33,8 +33,10 @@ sudo docker run -v /tmp/.X11-unix:/tmp/.X11-unix -e DISPLAY=unix$DISPLAY [Image-
 
 una vez abierto Spark nos vamos a adavanced en la parte de abajo:
 
--desactivar deteccion automatica de host y puerto
+desactivar deteccion automatica de host y puerto
+
 Host: ip del servidor, la que obtuvimos con "awk 'END{print $1}' /etc/hosts"
+
 PORT: 5222
 
 posteriormente nos vamos a la pestaña de security que esta dentro de advance de igual modo y le damos a disable como modo de encriptacion, esto para que no genere certificados.
