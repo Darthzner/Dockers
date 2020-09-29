@@ -42,7 +42,7 @@ PORT: 5222
 posteriormente nos vamos a la pestaña de security que esta dentro de advance de igual modo y le damos a disable como modo de encriptacion, esto para que no genere certificados.
 
 
-Con esto deberia poder entrar al servidor desde el cliente con los users y contraseñas seteados en el sv.
+Con esto deberia poder entrar al servidor desde el cliente con los users y contraseñas seteados en el sv y el domain: localhost.
 
 Enjoy.
 
