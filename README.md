@@ -1,4 +1,4 @@
-# Docker
+# Server y Cliente XMPP
 
 ## Proyecto:
 
