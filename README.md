@@ -11,8 +11,8 @@ y la muestra de 10 traficos diferentes XMPP.
 
 Cabe destacar que los Softwares usados son los siguientes:
 
-    * [Openfire] - Servidor XMPP
-    * [Spark] - Cliente XMPP
+* [Openfire] - Servidor XMPP
+* [Spark] - Cliente XMPP
 
 ## Instalacion e Inicialización:
 
