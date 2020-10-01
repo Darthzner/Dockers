@@ -72,9 +72,13 @@ Posteriormente nos vamos a la pestaña de security que esta dentro de advance de
 
 Con esto deberia poder entrar al servidor desde el cliente con los users y contraseñas seteados en el sv.
 
-Enjoy.
+##Enjoy!!
 
-Pd: se puede ejeecutar el comando sudo docker run -v /tmp/.X11-unix:/tmp/.X11-unix -e DISPLAY=unix$DISPLAY [Image-ID] en distintos terminales para poder crear varios clientes y poder agregar amigos.
+Pd: se puede ejeecutar el comando:
+'''sh
+    $ sudo docker run -v /tmp/.X11-unix:/tmp/.X11-unix -e DISPLAY=unix$DISPLAY [Image-ID] 
+'''
+En distintos terminales para poder crear varios clientes y poder agregar amigos.
 
 
 
