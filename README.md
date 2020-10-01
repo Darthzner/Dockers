@@ -1,10 +1,27 @@
 # Docker
 
-Luego de ejecutar ambos Dockerfiles:
+## Proyecto:
+
+La idea principal de este proyecto es la conexión de cliente-servidor alojados en contenedores dockers, 
+estos al poseer un protocolo ya escogido, en este caso XMPP, se realiza control de trafico a las interacciones
+entre estos 2 softwares y se estiman posibles vulnerabilidades.
+
+También se creó un [Video](https://www.youtube.com/watch?v=8VsujzifV5o) en donde se muestra el enlace entre ambos softwares
+y la muestra de 10 traficos diferentes XMPP.
+
+Cabe destacar que los Softwares usados son los siguientes:
+
+    * [Openfire] - Servidor XMPP
+    * [Spark] - Cliente XMPP
+
+## Instalacion e Inicialización:
+
+Luego de hacer un build a cada Dockerfile, debemos ejecutar el server y el cliente, en ese respectivo
+orden de la siguiente forma.
 
 ### Iniciar el Server:
 
-Conociendo el id del container del server hacerlo correr y meterse dentro del container
+Conociendo el id del container del server, lo hacemos correr y nos metemos dentro del container
 con el comando (en otra terminal):
 
 ```sh
@@ -22,13 +39,13 @@ Con esto sabremos la ip del sv para poder ponerla en nuestro browser, Copiamos e
 pegamos la ip en la url del browser de la siguiente forma:
 
 ```sh
-ip:9090
+[IP_SEVER]:9090
 ```
 
 Con esto se abrira el servidor y se debe configurar, (poner en dominio localhost y openfire.localhost), luego usar la base de datos interna y generar las credenciales de admin. 
 Posteriormente ir a crear usuarios y definirlos con localhost igualmente en el correo ej: correo@localhost
 
-### Iniciar CLIENTE:
+### Iniciar Cliente:
 
 Ejecutar el siguiente comando antes de correr el docker image
 
@@ -62,6 +79,10 @@ Pd: se puede ejeecutar el comando sudo docker run -v /tmp/.X11-unix:/tmp/.X11-un
 
 
 
+[//]: #
+
+[Openfire]: <https://github.com/igniterealtime/Openfire>
+[Spark]: <https://www.igniterealtime.org/projects/spark/>
 
 
 
