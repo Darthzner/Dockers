@@ -16,8 +16,8 @@ RUN apt-get -yqq update \
 &&  apt-get -yqq upgrade
 RUN apt install -yqq build-essential && apt install -yqq dpkg \
 && apt install -yqq wget \
-&& wget https://download.igniterealtime.org/spark/dailybuilds/spark_2_9_3-20200928.deb
-RUN dpkg -i spark_2_9_3-20200928.deb
+&& wget http://www.igniterealtime.org/downloadServlet?filename=spark/spark_2_9_2.deb
+RUN dpkg -i spark_2_9_2.deb
 RUN DEBIAN_FRONTEND="noninteractive" apt install -yqq default-jre
 
 ENV PATH="/opt/spark/bin:${PATH}"
