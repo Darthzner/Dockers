@@ -82,7 +82,7 @@ En distintos terminales para poder crear varios clientes y poder agregar amigos.
 
 ## Funciones para interceptar Trafico con Polymorph
 
-En la capeta funciones, se encuentran las funciones que fueron usadas en el siguiente [Video]{https://www.youtube.com/watch?v=n-DCk9sUTwM&feature=youtu.be} el cual muestra como 
+En la capeta funciones, se encuentran las funciones que fueron usadas en el siguiente [Video](https://www.youtube.com/watch?v=n-DCk9sUTwM&feature=youtu.be) el cual muestra como 
 manipular el tráfico asociado al sw de cliente y servidor, todo esto alojado en contenedores dockers.
 
 
