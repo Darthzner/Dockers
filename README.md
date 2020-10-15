@@ -13,6 +13,7 @@ Cabe destacar que los Softwares usados son los siguientes:
 
 * [Openfire] - Servidor XMPP
 * [Spark] - Cliente XMPP
+* [Polymorph] - Manipulacion de Tráfico
 
 ## Instalacion e Inicialización:
 
@@ -83,13 +84,14 @@ En distintos terminales para poder crear varios clientes y poder agregar amigos.
 ## Funciones para interceptar Trafico con Polymorph
 
 En la capeta funciones, se encuentran las funciones que fueron usadas en el siguiente [Video](https://www.youtube.com/watch?v=n-DCk9sUTwM&feature=youtu.be) el cual muestra como 
-manipular el tráfico asociado al sw de cliente y servidor, todo esto alojado en contenedores dockers.
+manipular el tráfico asociado al sw de cliente y servidor a través de la herramienta polymorph, todo esto alojado en contenedores dockers.
 
 
 [//]: #
 
 [Openfire]: <https://github.com/igniterealtime/Openfire>
 [Spark]: <https://www.igniterealtime.org/projects/spark/>
+[Polymorph]: <https://github.com/shramos/polymorph>
 
 
 
