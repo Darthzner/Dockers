@@ -86,6 +86,8 @@ En distintos terminales para poder crear varios clientes y poder agregar amigos.
 En la capeta funciones, se encuentran las funciones que fueron usadas en el siguiente [Video](https://www.youtube.com/watch?v=n-DCk9sUTwM&feature=youtu.be) el cual muestra como 
 manipular el tráfico asociado al sw de cliente y servidor a través de la herramienta polymorph, todo esto alojado en contenedores dockers.
 
+[![Video Servidor y Cliente XMPP](http://img.youtube.com/vi/8VsujzifV5o/0.jpg)](https://www.youtube.com/watch?v=8VsujzifV5o)
+
 
 [//]: #
 
