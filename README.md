@@ -6,13 +6,15 @@ La idea principal de este proyecto es la conexión de cliente-servidor alojados 
 estos al poseer un protocolo ya escogido, en este caso XMPP, se realiza control de tráfico a las interacciones
 entre estos 2 Softwares y se estiman posibles vulnerabilidades.
 
-También se creó un [Video](https://www.youtube.com/watch?v=8VsujzifV5o) en donde se muestra el enlace entre ambos softwares
-y la muestra de 10 traficos diferentes XMPP.
+También se creó un Video en donde se muestra el enlace entre ambos softwares y la muestra de 10 traficos diferentes XMPP.
+
+[![Video Servidor y Cliente XMPP](http://img.youtube.com/vi/8VsujzifV5o/0.jpg)](https://www.youtube.com/watch?v=8VsujzifV5o)
 
 Cabe destacar que los Softwares usados son los siguientes:
 
 * [Openfire] - Servidor XMPP
 * [Spark] - Cliente XMPP
+* [Polymorph] - Manipulacion de Tráfico
 
 ## Instalacion e Inicialización:
 
@@ -82,14 +84,18 @@ En distintos terminales para poder crear varios clientes y poder agregar amigos.
 
 ## Funciones para interceptar Trafico con Polymorph
 
-En la capeta funciones, se encuentran las funciones que fueron usadas en el siguiente [Video](https://www.youtube.com/watch?v=n-DCk9sUTwM&feature=youtu.be) el cual muestra como 
+En la capeta funciones, se encuentran las funciones que fueron usadas en el siguiente video, el cual muestra como 
 manipular el tráfico asociado al sw de cliente y servidor, todo esto alojado en contenedores dockers.
+
+[![Video Manipulacion de trafico](http://img.youtube.com/vi/n-DCk9sUTwM/0.jpg)](https://www.youtube.com/watch?v=n-DCk9sUTwM&feature=youtu.be)
 
 
 [//]: #
 
 [Openfire]: <https://github.com/igniterealtime/Openfire>
 [Spark]: <https://www.igniterealtime.org/projects/spark/>
+[Polymorph]: <https://github.com/shramos/polymorph>
+
 
 
 
