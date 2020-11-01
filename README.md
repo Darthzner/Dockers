@@ -3,7 +3,31 @@
 Luego de ejecutar ambos Dockerfiles:
 Primero configurar el Server de la siguiente manera:
 
+<<<<<<< HEAD
 Conociendo el id del container del server hacerlo correr y meterse dentro del container
+=======
+La idea principal de este proyecto es la conexión de cliente-servidor alojados en contenedores dockers, 
+estos al poseer un protocolo ya escogido, en este caso XMPP, se realiza control de tráfico a las interacciones
+entre estos 2 Softwares y se estiman posibles vulnerabilidades.
+
+También se creó un [Video](https://www.youtube.com/watch?v=8VsujzifV5o) en donde se muestra el enlace entre ambos softwares
+y la muestra de 10 traficos diferentes XMPP.
+
+Cabe destacar que los Softwares usados son los siguientes:
+
+* [Openfire] - Servidor XMPP
+* [Spark] - Cliente XMPP
+* [Polymorph] - Manipulacion de Tráfico
+
+## Instalacion e Inicialización:
+
+Luego de hacer un build a cada Dockerfile, debemos ejecutar el server y el cliente, en ese respectivo
+orden de la siguiente forma:
+
+### Iniciar el Server:
+
+Conociendo el ID del container del server, lo hacemos correr y nos metemos dentro del container
+>>>>>>> parent of b5db7c1... Update README.md
 con el comando (en otra terminal):
 
 sudo docker exec -it [ID_CONTAINER] /bin/bash
@@ -48,6 +72,10 @@ Enjoy.
 
 Pd: se puede ejeecutar el comando sudo docker run -v /tmp/.X11-unix:/tmp/.X11-unix -e DISPLAY=unix$DISPLAY [Image-ID] en distintos terminales para poder crear varios clientes y poder agregar amigos.
 
+<<<<<<< HEAD
+=======
+[![Video Servidor y Cliente XMPP](http://img.youtube.com/vi/8VsujzifV5o/0.jpg)](https://www.youtube.com/watch?v=8VsujzifV5o)
+>>>>>>> parent of b5db7c1... Update README.md
 
 
 
