@@ -11,6 +11,7 @@ RUN pip3 install git+https://github.com/kti/python-netfilterqueue
 RUN git clone https://github.com/shramos/polymorph 
 
 RUN cd polymorph && ls && python3 setup.py install
+#docker run --privileged -it [poly image]
 
 
 ENTRYPOINT ["polymorph"]
