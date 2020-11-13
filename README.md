@@ -89,6 +89,10 @@ manipular el tráfico asociado al sw de cliente y servidor, todo esto alojado en
 
 [![Video Manipulacion de trafico](http://img.youtube.com/vi/n-DCk9sUTwM/0.jpg)](https://www.youtube.com/watch?v=n-DCk9sUTwM&feature=youtu.be)
 
+## Metricas de Red
+Los codigos pertenecientes a esta sección, se encuentran en la carpeta Metricas, al igual que las capturas de trafico generadas.
+
+[![Video Metricas de Red](http://img.youtube.com/vi/GZVc1OJoAAI/0.jpg)](https://www.youtube.com/watch?v=GZVc1OJoAAI&feature=youtu.be)
 
 [//]: #
 
