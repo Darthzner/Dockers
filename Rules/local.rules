@@ -1,0 +1,24 @@
+#alert icmp any any -> 172.17.0.2 any (msg: "Alo"; sid:10000;)
+
+#Regla con dsize
+
+alert tcp any any -> 172.17.0.2 any (msg: "Archivo sospechoso"; dsize: >800; sid: 1000001;)
+
+#Regla con Pcre o Regex
+
+alert tcp any any -> 172.17.0.2 any (msg:"Estan enviando un link"; pcre:"/[\W*((?i)<body>(?-i))\W*(http(s)?):\/\/(www\.)?a-zA-Z0-9@:%._\+-~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&\/\/=]*\W*((?i)<\/body>(?-i))\W*)/"; sid:1000002;)
+
+#Regla con offset
+
+alert tcp any any -> 172.17.0.2 any (msg:"Estan Jugando Gato";content: "tictactoe" ;offset: 168; sid:100005;)
+
+#Intento de regla con el nuevo activate/dynamic
+
+#alert tcp 172.17.0.2 any -> any any (msg: "intentando conexion"; content: "<challenge" ; flowbits: isset,connect;sid : 192;)
+#alert tcp 172.17.0.2 any ->  any any (msg: "Se ha conectado"; content: "<success"; flowbits: isset,connect;sid:193;)
+
+#alert tcp 172.17.0.2 any -> any any (msg: "maximo de Usuarios  superado"; content: "<success"; flowbits: isset,connect; nocase; flowbits: set, connect; tag:host,2,packets,src; sid:102;)
+
+#Regla con flow
+
+alert tcp 172.17.0.2 any -> any any (msg: "coneccion realizada via flow"; content:"success";flow:to_client,established; sid: 164257;)
